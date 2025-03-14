@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  
+</head>
+<body>
+    <h3>CRUD APPLICATION</h3>
+    <form action="#" id="frm">
+        <input type="hidden" id="id">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your name"></div>
+            <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter Your Age"></div>
+            <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Enter Your city"></div>
+            <button type="submit" class="button1">Save</button>
+    </form>
+    <table>
+        <thead>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delete</th> 
+        </thead>
+        <tbody id="tblbody">
+        <!-- <tr>
+            <td>1</td>
+            <td>Harini</td>
+            <td>20</td>
+            <td>Coimbatore</td>
+            <td><button><span class="material-symbols-outlined">
+                edit_square
+                </span></button></td>
+            <td><button><span class="material-symbols-outlined">
+                delete
+                </span></button></td>
+        </tr> -->
+        </tbody>
+    </table>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
